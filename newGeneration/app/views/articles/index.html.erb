@@ -1,0 +1,67 @@
+<div class="container justify-content-center align-items-center">
+<!--
+    <h2 class="text-center pt-3">New Generation Church</h2>
+    <h2 class="text-center">Eutaw, AL</h2>
+-->
+    <div class="container px-5 pt-5">  
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+             <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <%= image_tag("closeUpSign.png", class: "img-fluid", id: "close_up") %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag("frontBuilding.png", class: "img-fluid", id: "front-of-building") %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag("frontWide.png", class: "img-fluid", id: "wide-front-of-building") %>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+       
+    </div>
+
+    <hr style="width:100%;text-align:left;margin-left:0; height: 4px">
+    
+    <h2 class="text-center pt-3">New Generation Church Eutaw</h2>
+    <h3 class="text-center pt-3">Service Sunday 9AM </h2>
+
+    <hr style="width:100%;text-align:left;margin-left:0; height: 4px">
+
+    <div class="row">
+        <div class="p-5 col-6">
+            <div class="card">
+            <%= image_tag("wideAerial.png", class: "card-img-top", id: "homepage-front-of-building-aerial") %>
+                <div class="card-body">
+                    <h5 class="card-title">Find Us On Maps</h5>
+                    <p class="card-text">We are located at 119 Louis Barnett Jr St, Eutaw, AL 35462. Click here to find us on Google Maps.</p>
+                    <a href="https://goo.gl/maps/vvZM6sFK92iz4Trb8" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 col-6">
+            <div class="card  ">
+            <%= image_tag("pastorJoeFB.png", class: "card-img-top", id: "homepage-front-of-building-aerial") %>
+                <div class="card-body">
+                    <h5 class="card-title">Facebook Live Stream</h5>
+                    <p class="card-text">Follow our Facebook page to see our Sunday service livestream or to send us a message!</p>
+                    <a href="https://www.facebook.com/NewGenerationChurchEutaw/" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     
+</div>
